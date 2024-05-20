@@ -6,4 +6,4 @@ seaborn
 pillow
 wordcloud
 collections
-nltk.corpus
+nltk
