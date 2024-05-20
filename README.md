@@ -8,48 +8,10 @@ cd ruta/a/introCD/Tarea_1/
 pip install -r requirements.txt
 jupyter notebook
 ```
+## Tarea 1
+Dentro de esta sección se encuentran las siguientes carpetas:
+1. Data: contiene los datos de la base de datos de Shakespeare.
+2. Notebooks: los notebooks desarrollados por los participantes del grupo.
+3. Resources: material sobre la letra del proyecto, requerimientos de librerías para correr los códigos y borradores.
 
-## [Opcional] Trabajando con entornos virtuales (virtualenvs)
-Se recomienda utilizar entornos virtuales para instalar los requerimientos de cada proyecto en un entorno aislado, de forma que las dependencias no colisionen. Hay muchas formas de hacerlo, pero utilizando sólamente python estándar se puede ejecutar:
-```sh
-cd ruta/a/introCD/
-
-# Solo una vez, crea el entorno virtual en la carpeta ruta/a/introCD/.venv/
-python -m venv -prompt introcd .venv/ 
-
-# Cada vez que ingrese a la consola, puede activar este entorno corriendo (desde la carpeta introCD/):
-source .venv/bin/activate
-```
-La idea es siempre ejecutar los comandos `pip install ...`, o `python...` o `jupyter...` dentro de este entorno,
-de forma que no se instale nada a nivel del sistema.
-
-Si utiliza un IDE como [Visual Studio Code](https://code.visualstudio.com/) y corre el código en forma interactiva, este entorno virtual debería estar visible dentro de la lista de *kernels* cuando intente ejecutar python.
-
-## [Opcional] Trabajando con múltiples versiones de python
-
-Si está trabajando en muchos proyectos distintos que usan python, es muy probable que algunos requieran utilizar versiones particulares. En esos casos se recomienda utilizar [pyenv](https://github.com/pyenv/pyenv) para poder utilizar versiones de python distintas en la misma máquina.
-
-Una vez instalado `pyenv`, puede instalar y cambiarse a cualquier version de python:
-```sh
-# Listar todas las versiones disponibles:
-pyenv install --list
-
-# Supongamos que quiero instalar la `3.10.9`:
-pyenv install 3.10.9
-
-# Ahora debería ver esta versión disponible en su computadora:
-pyenv versions
-
-# Para usar una versión determinada, tiene 3 opciones:
-
-pyenv shell 3.10.9  # crea una variable de entorno `$PYENV_VERSION` que activa esta versión sólo en la terminal actual
-
-pyenv local 3.10.9  # crea un archivo `.python-version` que hace activar esta versión cada vez que entra en la carpeta
-
-pyenv global 3.10.9  # hace que todo el sistema utilice esta versión de python (puede generar problemas)
-
-# Ahora debería ver un asterisco junto a la versión activa:
-pyenv versions
-```
-
-**NOTA:** cuando crea un entorno virtual, **la versión de python activa en ese momento se copia dentro de la carpeta `.venv/`**, y cada vez que active dicho entorno, esa será la versión que se usará, sin importar lo que haga con `pyenv`. Si desea crear un entorno virtual con otra versión de python, puede borrar el entorno existente (`rm -r .venv/`), activar con pyenv la versión que desea usar, y luego volver a crear el entorno virtual.
+Además, la sección contiene el PDF con el informe final de la tarea con todos los resultados relevantes realizados: <span>Informe Final - Tarea 1</span>.
