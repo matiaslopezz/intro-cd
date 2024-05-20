@@ -4,3 +4,6 @@ sqlalchemy<2.0
 pymysql
 seaborn
 pillow
+wordcloud
+collections
+nltk.corpus
