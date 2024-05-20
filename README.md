@@ -15,5 +15,5 @@ jupyter notebook
 Dentro de las secciones **Tarea_1** y **Tarea_2** se encuentra las siguientes carpetas y documentos:
 1. Data: archivos de las bases de datos utilizadas.
 2. Notebooks: los notebooks desarrollados por los participantes del grupo.
-3. Resources: material sobre la letra del proyecto, requerimientos de librerías para correr los notebooks y borradores elaborados durante la realiación de la tarea.
+3. Resources: material sobre la letra del proyecto, requerimientos de librerías para correr los notebooks y borradores elaborados durante la realización de la tarea.
 4. Informe Final: documento PDF entregable que contiene todos los resultados relevantes realizados a evaluar.
